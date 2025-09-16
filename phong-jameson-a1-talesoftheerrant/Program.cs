@@ -86,6 +86,28 @@ if (classChoice.ToUpper() == "COMBAT")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             weaponChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Knight Class' Off-Hand Item
+        Console.WriteLine("What off-hand item do you carry?");
+        Console.WriteLine("[SHIELD] [SHORTSWORD]");
+
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "SHIELD")
+        {
+            Console.WriteLine("A Shield! A sturdy barrier for blocking attacks.");
+        }
+        else if (offHandChoice.ToUpper() == "SHORTSWORD")
+        {
+            Console.WriteLine("A Shortsword! A quick and agile weapon for close combat.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            offHandChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "BARBARIAN")
     {
@@ -111,6 +133,28 @@ if (classChoice.ToUpper() == "COMBAT")
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             weaponChoice = Console.ReadLine();
+        }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Barbarian Class' Off-Hand Item
+        Console.WriteLine("What off-hand item do you carry?");
+        Console.WriteLine("[TOMAHAWK] [FIREBOMB]");
+
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "TOMAHAWK")
+        {
+            Console.WriteLine("A Tomahawk! A versatile axe for both throwing and melee combat.");
+        }
+        else if (offHandChoice.ToUpper() == "FIREBOMB")
+        {
+            Console.WriteLine("A Firebomb! An explosive device that engulfs enemies in flames.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            offHandChoice = Console.ReadLine();
         }
     }
     else
@@ -156,6 +200,28 @@ else if (classChoice.ToUpper() == "MAGIC")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             familiarChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Summoner Class' Familiar Booster
+        Console.WriteLine("What Familiar Booster do you use?");
+        Console.WriteLine("[ORB] [TALISMAN]");
+
+        string boosterChoice = Console.ReadLine();
+        if (boosterChoice.ToUpper() == "ORB")
+        {
+            Console.WriteLine("An Orb! A spherical object that enhances summoning abilities.");
+        }
+        else if (boosterChoice.ToUpper() == "TALISMAN")
+        {
+            Console.WriteLine("A Talisman! A charm that strengthens the bond with your familiar.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            boosterChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "BISHOP")
     {
@@ -181,6 +247,28 @@ else if (classChoice.ToUpper() == "MAGIC")
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             magicalEnhancerChoice = Console.ReadLine();
+        }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Bishop Class' Holy Artifact
+        Console.WriteLine("What Holy Artifact do you carry?");
+        Console.WriteLine("[AMULET] [BOOK]");
+
+        string holyArtifactChoice = Console.ReadLine();
+        if (holyArtifactChoice.ToUpper() == "AMULET")
+        {
+            Console.WriteLine("An Amulet! A pendant that offers protection and boosts healing.");
+        }
+        else if (holyArtifactChoice.ToUpper() == "BOOK")
+        {
+            Console.WriteLine("A Book! A tome filled with sacred texts and powerful prayers.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            holyArtifactChoice = Console.ReadLine();
         }
     }
     else
@@ -226,6 +314,28 @@ else if (classChoice.ToUpper() == "STEALTH")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             weaponChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Thief Class' Tool
+        Console.WriteLine("What tool do you carry?");
+        Console.WriteLine("[SMOKEBOMB] [GRAPPLEHOOK]");
+
+        string toolChoice = Console.ReadLine();
+        if (toolChoice.ToUpper() == "SMOKEBOMB")
+        {
+            Console.WriteLine("A Smoke Bomb! A device that creates a cloud of smoke for quick escapes.");
+        }
+        else if (toolChoice.ToUpper() == "GRAPPLEHOOK")
+        {
+            Console.WriteLine("A Grapple Hook! A tool for scaling walls and binding enemies.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            toolChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "ASSASSIN")
     {
@@ -251,6 +361,28 @@ else if (classChoice.ToUpper() == "STEALTH")
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             weaponChoice = Console.ReadLine();
+        }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Assassin Class' Tool
+        Console.WriteLine("What tool do you carry?");
+        Console.WriteLine("[POISON] [CALTROPS]");
+
+        string toolChoice = Console.ReadLine();
+        if (toolChoice.ToUpper() == "POISON")
+        {
+            Console.WriteLine("Poison! A deadly substance for coating your weapons.");
+        }
+        else if (toolChoice.ToUpper() == "CALTROPS")
+        {
+            Console.WriteLine("Caltrops! Spiked devices for hindering enemy movement.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            toolChoice = Console.ReadLine();
         }
     }
     else
