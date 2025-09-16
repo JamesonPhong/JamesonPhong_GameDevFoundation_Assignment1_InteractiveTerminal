@@ -108,6 +108,29 @@ if (classChoice.ToUpper() == "COMBAT")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A strong name for a strong {subClassChoice}, Sir {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else if (subClassChoice.ToUpper() == "BARBARIAN")
     {
@@ -156,6 +179,29 @@ if (classChoice.ToUpper() == "COMBAT")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A strong name for a strong {subClassChoice}, Sir {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else
     {
@@ -222,6 +268,29 @@ else if (classChoice.ToUpper() == "MAGIC")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A wise name for a wise {subClassChoice}, Master {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else if (subClassChoice.ToUpper() == "BISHOP")
     {
@@ -270,6 +339,29 @@ else if (classChoice.ToUpper() == "MAGIC")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A wise name for a wise {subClassChoice}, Master {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else
     {
@@ -336,6 +428,29 @@ else if (classChoice.ToUpper() == "STEALTH")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A clever name for a clever {subClassChoice}, Rogue {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else if (subClassChoice.ToUpper() == "ASSASSIN")
     {
@@ -384,6 +499,29 @@ else if (classChoice.ToUpper() == "STEALTH")
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             offHandChoice = Console.ReadLine();
         }
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Final Confirmation of Choices
+        Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+        Console.WriteLine("Does this sound correct?");
+        Console.WriteLine("[YES] [NO]");
+
+        string finalChoice = Console.ReadLine();
+
+        // Separator Space
+        Console.WriteLine("");
+
+        // Naming yourself
+        Console.WriteLine("Very well then.");
+        Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
+        Console.WriteLine("What name do you go by?");
+
+        string nameChoice = Console.ReadLine();
+
+        Console.WriteLine($"A clever name for a clever {subClassChoice}, Rogue {nameChoice}.");
+        Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
     }
     else
     {
@@ -395,44 +533,4 @@ else
 {
     Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
     classChoice = Console.ReadLine();
-}
-
-// Seperator Space
-Console.WriteLine("");
-
-// Final Confirmation of Choices
-Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-Console.WriteLine("Does this sound correct?");
-Console.WriteLine("[YES] [NO]");
-
-string finalChoice = Console.ReadLine();
-
-// separator Space
-Console.WriteLine("");
-
-// Naming yourself
-Console.WriteLine("Very well then.");
-Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
-Console.WriteLine("What name do you go by?");
-
-string nameChoice = Console.ReadLine();
-if (classChoice.ToUpper() == "COMBAT")
-{
-    Console.WriteLine($"A strong name for a strong {subClassChoice}, Sir {nameChoice}.");
-    Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
-}
-else if (classChoice.ToUpper() == "MAGIC")
-{
-    Console.WriteLine($"A wise name for a wise {subClassChoice}, Master {nameChoice}.");
-    Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
-}
-else if (classChoice.ToUpper() == "STEALTH")
-{
-    Console.WriteLine($"A clever name for a clever {subClassChoice}, Rogue {nameChoice}.");
-    Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
-}
-else
-{
-    Console.WriteLine($"A fitting name, {nameChoice}.");
-    Console.WriteLine("Now go forth and protect the people of Lodenhal Reach from the Demons of Blood-Rift!");
 }
