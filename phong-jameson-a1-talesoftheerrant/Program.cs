@@ -73,6 +73,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -92,6 +93,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -128,6 +130,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -147,6 +150,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -165,6 +169,7 @@ if (validRace == true)
         }
         else
         {
+            Console.WriteLine("");
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             Console.WriteLine("[GAME OVER]");
         }
@@ -199,6 +204,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -218,6 +224,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -254,6 +261,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -273,6 +281,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -291,6 +300,7 @@ if (validRace == true)
         }
         else
         {
+            Console.WriteLine("");
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             Console.WriteLine("[GAME OVER]");
         }
@@ -325,6 +335,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -344,6 +355,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -380,6 +392,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -399,6 +412,7 @@ if (validRace == true)
             }
             else
             {
+                Console.WriteLine("");
                 Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
                 Console.WriteLine("[GAME OVER]");
             }
@@ -417,12 +431,14 @@ if (validRace == true)
         }
         else
         {
+            Console.WriteLine("");
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
             Console.WriteLine("[GAME OVER]");
         }
     }
     else
     {
+        Console.WriteLine("");
         Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
         Console.WriteLine("[GAME OVER]");
     }
