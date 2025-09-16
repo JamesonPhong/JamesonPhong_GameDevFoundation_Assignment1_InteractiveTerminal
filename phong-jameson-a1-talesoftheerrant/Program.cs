@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-// Introduction to Tales Of The Errant
-using System.Runtime.InteropServices;
-
+﻿// Introduction to Tales Of The Errant
 Console.WriteLine("[Tales Of The Errant]");
 Console.WriteLine("Greetings Lost Soul of the Void.");
 Console.WriteLine("I am Arla, Goddess of Rebirth");
@@ -14,8 +10,6 @@ Console.WriteLine("Unfortunately, your mortal body has long been forgotten to th
 Console.WriteLine("But that is why I have... Borrowed the All-Seeing Hourglass from Kronos... Don't tell him.");
 Console.WriteLine("With this artifact, you can peer back into time.");
 Console.WriteLine("Although fragmented, the memories of your past life will eventually return.");
-
-// Seperator Space
 Console.WriteLine("");
 
 // Choosing your Race
@@ -38,13 +32,10 @@ else if (raceChoice.ToUpper() == "BEASTFOLK")
 else
 {
     Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-    raceChoice = Console.ReadLine();
+    Console.WriteLine("[GAME OVER]");
 }
-
-// Seperator Space
-Console.WriteLine("");
-
 // Choosing your Class
+Console.WriteLine("");
 Console.WriteLine("And what of your Class?");
 Console.WriteLine("[COMBAT] [MAGIC] [STEALTH]");
 
@@ -52,8 +43,6 @@ string classChoice = Console.ReadLine();
 if (classChoice.ToUpper() == "COMBAT")
 {
     Console.WriteLine("A Combatant! A master of physical prowess and weaponry.");
-
-    // Seperator Space
     Console.WriteLine("");
 
     // Choosing your Combat Sub-Class
@@ -64,8 +53,6 @@ if (classChoice.ToUpper() == "COMBAT")
     if (subClassChoice.ToUpper() == "KNIGHT")
     {
         Console.WriteLine("A Knight! A noble warrior bound by honor and chivalry.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Knight Class' Weapon
@@ -84,13 +71,10 @@ if (classChoice.ToUpper() == "COMBAT")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Knight Class' Off-Hand Item
+        Console.WriteLine("");
         Console.WriteLine("What off-hand item do you carry?");
         Console.WriteLine("[SHIELD] [SHORTSWORD]");
 
@@ -106,23 +90,11 @@ if (classChoice.ToUpper() == "COMBAT")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -135,8 +107,6 @@ if (classChoice.ToUpper() == "COMBAT")
     else if (subClassChoice.ToUpper() == "BARBARIAN")
     {
         Console.WriteLine("A Barbarian! A fierce fighter fueled by rage and primal strength.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Barbarian Class' Weapon
@@ -155,13 +125,10 @@ if (classChoice.ToUpper() == "COMBAT")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Barbarian Class' Off-Hand Item
+        Console.WriteLine("");
         Console.WriteLine("What off-hand item do you carry?");
         Console.WriteLine("[TOMAHAWK] [FIREBOMB]");
 
@@ -177,23 +144,11 @@ if (classChoice.ToUpper() == "COMBAT")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -206,14 +161,12 @@ if (classChoice.ToUpper() == "COMBAT")
     else
     {
         Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-        subClassChoice = Console.ReadLine();
+        Console.WriteLine("[GAME OVER]");
     }
 }
 else if (classChoice.ToUpper() == "MAGIC")
 {
     Console.WriteLine("A Mage! A wielder of arcane powers and mystical arts.");
-
-    // Seperator Space
     Console.WriteLine("");
 
     // Choosing your Magic Sub-Class
@@ -224,8 +177,6 @@ else if (classChoice.ToUpper() == "MAGIC")
     if (subClassChoice.ToUpper() == "SUMMONER")
     {
         Console.WriteLine("A Summoner! A conjurer of otherworldly beings to aid in battle.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Summoner Class' Familiar
@@ -244,13 +195,10 @@ else if (classChoice.ToUpper() == "MAGIC")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Summoner Class' Familiar Booster
+        Console.WriteLine("");
         Console.WriteLine("What Familiar Booster do you use?");
         Console.WriteLine("[ORB] [TALISMAN]");
 
@@ -266,23 +214,11 @@ else if (classChoice.ToUpper() == "MAGIC")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -295,8 +231,6 @@ else if (classChoice.ToUpper() == "MAGIC")
     else if (subClassChoice.ToUpper() == "BISHOP")
     {
         Console.WriteLine("A Bishop! A healer and protector, channeling divine energy.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Bishop Class' Magical Enhancer
@@ -315,13 +249,10 @@ else if (classChoice.ToUpper() == "MAGIC")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Bishop Class' Holy Artifact
+        Console.WriteLine("");
         Console.WriteLine("What Holy Artifact do you carry?");
         Console.WriteLine("[AMULET] [BOOK]");
 
@@ -337,23 +268,11 @@ else if (classChoice.ToUpper() == "MAGIC")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -366,14 +285,12 @@ else if (classChoice.ToUpper() == "MAGIC")
     else
     {
         Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-        subClassChoice = Console.ReadLine();
+        Console.WriteLine("[GAME OVER]");
     }
 }
 else if (classChoice.ToUpper() == "STEALTH")
 {
     Console.WriteLine("A Rogue! A shadowy figure skilled in subterfuge and agility.");
-
-    // Seperator Space
     Console.WriteLine("");
 
     // Choosing your Stealth Sub-Class
@@ -384,8 +301,6 @@ else if (classChoice.ToUpper() == "STEALTH")
     if (subClassChoice.ToUpper() == "THIEF")
     {
         Console.WriteLine("A Thief! A cunning individual adept at stealth and lockpicking.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Thief Class' Weapon
@@ -404,13 +319,10 @@ else if (classChoice.ToUpper() == "STEALTH")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Thief Class' Tool
+        Console.WriteLine("");
         Console.WriteLine("What tool do you carry?");
         Console.WriteLine("[SMOKEBOMB] [GRAPPLEHOOK]");
 
@@ -426,23 +338,11 @@ else if (classChoice.ToUpper() == "STEALTH")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -455,8 +355,6 @@ else if (classChoice.ToUpper() == "STEALTH")
     else if (subClassChoice.ToUpper() == "ASSASSIN")
     {
         Console.WriteLine("An Assassin! A deadly operative skilled in silent takedowns.");
-
-        // Seperator Space
         Console.WriteLine("");
 
         // Choosing your Assassin Class' Weapon
@@ -475,13 +373,10 @@ else if (classChoice.ToUpper() == "STEALTH")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            weaponChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
-        Console.WriteLine("");
-
         // Choosing your Assassin Class' Tool
+        Console.WriteLine("");
         Console.WriteLine("What tool do you carry?");
         Console.WriteLine("[POISON] [CALTROPS]");
 
@@ -497,23 +392,11 @@ else if (classChoice.ToUpper() == "STEALTH")
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            offHandChoice = Console.ReadLine();
+            Console.WriteLine("[GAME OVER]");
         }
-
-        // Seperator Space
+        // Final Confirmation of Choices + Naming yourself
         Console.WriteLine("");
-
-        // Final Confirmation of Choices
         Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
-        Console.WriteLine("Does this sound correct?");
-        Console.WriteLine("[YES] [NO]");
-
-        string finalChoice = Console.ReadLine();
-
-        // Separator Space
-        Console.WriteLine("");
-
-        // Naming yourself
         Console.WriteLine("Very well then.");
         Console.WriteLine("Now that you returning to the mortal plane, we can not call you Lost Soul of the Void anymore, can we?");
         Console.WriteLine("What name do you go by?");
@@ -526,11 +409,11 @@ else if (classChoice.ToUpper() == "STEALTH")
     else
     {
         Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-        subClassChoice = Console.ReadLine();
+        Console.WriteLine("[GAME OVER]");
     }
 }
 else
 {
     Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-    classChoice = Console.ReadLine();
+    Console.WriteLine("[GAME OVER]");
 }
