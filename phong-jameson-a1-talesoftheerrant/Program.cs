@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // Introduction to Tales Of The Errant
+using System.Runtime.InteropServices;
+
 Console.WriteLine("[Tales Of The Errant]");
 Console.WriteLine("Greetings Lost Soul of the Void.");
 Console.WriteLine("I am Arla, Goddess of Rebirth");
@@ -20,21 +22,47 @@ Console.WriteLine("");
 Console.WriteLine("Now then Lost Soul of the Void. What Race do you hail from?");
 Console.WriteLine("[HUMAN] [ELF] [BEASTFOLK]");
 
-string race = Console.ReadLine();
-if (race.ToUpper() == "HUMAN")
+string raceChoice = Console.ReadLine();
+if (raceChoice.ToUpper() == "HUMAN")
 {
     Console.WriteLine("Ah, a Human. A versatile and resilient race.");
 }
-else if (race.ToUpper() == "ELF")
+else if (raceChoice.ToUpper() == "ELF")
 {
     Console.WriteLine("Ah, an Elf. A wise and agile race.");
 }
-else if (race.ToUpper() == "BEASTFOLK")
+else if (raceChoice.ToUpper() == "BEASTFOLK")
 {
     Console.WriteLine("Ah, a Beastfolk. A strong and fierce race.");
 }
 else
 {
     Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-    race = Console.ReadLine();
+    raceChoice = Console.ReadLine();
+}
+
+// Seperator Space
+Console.WriteLine("");
+
+// Choosing your Class
+Console.WriteLine("And what of your Class?");
+Console.WriteLine("[COMBAT] [MAGIC] [STEALTH]");
+
+string classChoice = Console.ReadLine();
+if (classChoice.ToUpper() == "COMBAT")
+{
+    Console.WriteLine("A Combatant! A master of physical prowess and weaponry.");
+}
+else if (classChoice.ToUpper() == "MAGIC")
+{
+    Console.WriteLine("A Mage! A wielder of arcane powers and mystical arts.");
+}
+else if (classChoice.ToUpper() == "STEALTH")
+{
+    Console.WriteLine("A Rogue! A shadowy figure skilled in subterfuge and agility.");
+}
+else
+{
+    Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+    classChoice = Console.ReadLine();
 }
