@@ -186,19 +186,19 @@ else if (classChoice.ToUpper() == "MAGIC")
         Console.WriteLine("What familiar do you summon?");
         Console.WriteLine("[FIRE IMP] [WATER SPRITE]");
 
-        string familiarChoice = Console.ReadLine();
-        if (familiarChoice.ToUpper() == "FIRE IMP")
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "FIRE IMP")
         {
             Console.WriteLine("A Fire Imp! A mischievous creature that wields flames.");
         }
-        else if (familiarChoice.ToUpper() == "WATER SPRITE")
+        else if (weaponChoice.ToUpper() == "WATER SPRITE")
         {
             Console.WriteLine("A Water Sprite! A graceful entity that commands water.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            familiarChoice = Console.ReadLine();
+            weaponChoice = Console.ReadLine();
         }
 
         // Seperator Space
@@ -208,19 +208,19 @@ else if (classChoice.ToUpper() == "MAGIC")
         Console.WriteLine("What Familiar Booster do you use?");
         Console.WriteLine("[ORB] [TALISMAN]");
 
-        string boosterChoice = Console.ReadLine();
-        if (boosterChoice.ToUpper() == "ORB")
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "ORB")
         {
             Console.WriteLine("An Orb! A spherical object that enhances summoning abilities.");
         }
-        else if (boosterChoice.ToUpper() == "TALISMAN")
+        else if (offHandChoice.ToUpper() == "TALISMAN")
         {
             Console.WriteLine("A Talisman! A charm that strengthens the bond with your familiar.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            boosterChoice = Console.ReadLine();
+            offHandChoice = Console.ReadLine();
         }
     }
     else if (subClassChoice.ToUpper() == "BISHOP")
@@ -234,19 +234,19 @@ else if (classChoice.ToUpper() == "MAGIC")
         Console.WriteLine("What Magical Enhancer do you use?");
         Console.WriteLine("[STAFF] [WAND]");
 
-        string magicalEnhancerChoice = Console.ReadLine();
-        if (magicalEnhancerChoice.ToUpper() == "STAFF")
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "STAFF")
         {
             Console.WriteLine("A Staff! A long implement that amplifies magical power.");
         }
-        else if (magicalEnhancerChoice.ToUpper() == "WAND")
+        else if (weaponChoice.ToUpper() == "WAND")
         {
             Console.WriteLine("A Wand! A slender tool for precise spellcasting.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            magicalEnhancerChoice = Console.ReadLine();
+            weaponChoice = Console.ReadLine();
         }
 
         // Seperator Space
@@ -256,19 +256,19 @@ else if (classChoice.ToUpper() == "MAGIC")
         Console.WriteLine("What Holy Artifact do you carry?");
         Console.WriteLine("[AMULET] [BOOK]");
 
-        string holyArtifactChoice = Console.ReadLine();
-        if (holyArtifactChoice.ToUpper() == "AMULET")
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "AMULET")
         {
             Console.WriteLine("An Amulet! A pendant that offers protection and boosts healing.");
         }
-        else if (holyArtifactChoice.ToUpper() == "BOOK")
+        else if (offHandChoice.ToUpper() == "BOOK")
         {
             Console.WriteLine("A Book! A tome filled with sacred texts and powerful prayers.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            holyArtifactChoice = Console.ReadLine();
+            offHandChoice = Console.ReadLine();
         }
     }
     else
@@ -322,19 +322,19 @@ else if (classChoice.ToUpper() == "STEALTH")
         Console.WriteLine("What tool do you carry?");
         Console.WriteLine("[SMOKEBOMB] [GRAPPLEHOOK]");
 
-        string toolChoice = Console.ReadLine();
-        if (toolChoice.ToUpper() == "SMOKEBOMB")
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "SMOKEBOMB")
         {
             Console.WriteLine("A Smoke Bomb! A device that creates a cloud of smoke for quick escapes.");
         }
-        else if (toolChoice.ToUpper() == "GRAPPLEHOOK")
+        else if (offHandChoice.ToUpper() == "GRAPPLEHOOK")
         {
             Console.WriteLine("A Grapple Hook! A tool for scaling walls and binding enemies.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            toolChoice = Console.ReadLine();
+            offHandChoice = Console.ReadLine();
         }
     }
     else if (subClassChoice.ToUpper() == "ASSASSIN")
@@ -370,19 +370,19 @@ else if (classChoice.ToUpper() == "STEALTH")
         Console.WriteLine("What tool do you carry?");
         Console.WriteLine("[POISON] [CALTROPS]");
 
-        string toolChoice = Console.ReadLine();
-        if (toolChoice.ToUpper() == "POISON")
+        string offHandChoice = Console.ReadLine();
+        if (offHandChoice.ToUpper() == "POISON")
         {
             Console.WriteLine("Poison! A deadly substance for coating your weapons.");
         }
-        else if (toolChoice.ToUpper() == "CALTROPS")
+        else if (offHandChoice.ToUpper() == "CALTROPS")
         {
             Console.WriteLine("Caltrops! Spiked devices for hindering enemy movement.");
         }
         else
         {
             Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
-            toolChoice = Console.ReadLine();
+            offHandChoice = Console.ReadLine();
         }
     }
     else
@@ -396,3 +396,13 @@ else
     Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
     classChoice = Console.ReadLine();
 }
+
+// Seperator Space
+Console.WriteLine("");
+
+// Final Confirmation of Choices
+Console.WriteLine($"So, Lost Soul of the Void, you are a {raceChoice} {subClassChoice}, wielding a {weaponChoice} and {offHandChoice}.");
+Console.WriteLine("Does this sound correct?");
+Console.WriteLine("[YES] [NO]");
+
+string finalChoice = Console.ReadLine();
