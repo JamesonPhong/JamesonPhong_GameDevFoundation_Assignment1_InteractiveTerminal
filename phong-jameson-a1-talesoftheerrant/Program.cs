@@ -64,10 +64,54 @@ if (classChoice.ToUpper() == "COMBAT")
     if (subClassChoice.ToUpper() == "KNIGHT")
     {
         Console.WriteLine("A Knight! A noble warrior bound by honor and chivalry.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Knight Class' Weapon
+        Console.WriteLine("What weapon do you wield?");
+        Console.WriteLine("[LONGSWORD] [MACE]");
+
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "LONGSWORD")
+        {
+            Console.WriteLine("A Longsword! A balanced weapon for both offense and defense.");
+        }
+        else if (weaponChoice.ToUpper() == "MACE")
+        {
+            Console.WriteLine("A Mace! A blunt weapon designed to crush armor and bones.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            weaponChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "BARBARIAN")
     {
         Console.WriteLine("A Barbarian! A fierce fighter fueled by rage and primal strength.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Barbarian Class' Weapon
+        Console.WriteLine("What weapon do you wield?");
+        Console.WriteLine("[GREATSWORD] [WARHAMMER]");
+
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "GREATSWORD")
+        {
+            Console.WriteLine("A Greatsword! A massive blade that deals devastating damage.");
+        }
+        else if (weaponChoice.ToUpper() == "WARHAMMER")
+        {
+            Console.WriteLine("A Warhammer! A heavy weapon that can shatter shields and bones.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            weaponChoice = Console.ReadLine();
+        }
     }
     else
     {
@@ -90,10 +134,54 @@ else if (classChoice.ToUpper() == "MAGIC")
     if (subClassChoice.ToUpper() == "SUMMONER")
     {
         Console.WriteLine("A Summoner! A conjurer of otherworldly beings to aid in battle.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Summoner Class' Familiar
+        Console.WriteLine("What familiar do you summon?");
+        Console.WriteLine("[FIRE IMP] [WATER SPRITE]");
+
+        string familiarChoice = Console.ReadLine();
+        if (familiarChoice.ToUpper() == "FIRE IMP")
+        {
+            Console.WriteLine("A Fire Imp! A mischievous creature that wields flames.");
+        }
+        else if (familiarChoice.ToUpper() == "WATER SPRITE")
+        {
+            Console.WriteLine("A Water Sprite! A graceful entity that commands water.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            familiarChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "BISHOP")
     {
         Console.WriteLine("A Bishop! A healer and protector, channeling divine energy.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Bishop Class' Magical Enhancer
+        Console.WriteLine("What Magical Enhancer do you use?");
+        Console.WriteLine("[STAFF] [WAND]");
+
+        string magicalEnhancerChoice = Console.ReadLine();
+        if (magicalEnhancerChoice.ToUpper() == "STAFF")
+        {
+            Console.WriteLine("A Staff! A long implement that amplifies magical power.");
+        }
+        else if (magicalEnhancerChoice.ToUpper() == "WAND")
+        {
+            Console.WriteLine("A Wand! A slender tool for precise spellcasting.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            magicalEnhancerChoice = Console.ReadLine();
+        }
     }
     else
     {
@@ -116,10 +204,54 @@ else if (classChoice.ToUpper() == "STEALTH")
     if (subClassChoice.ToUpper() == "THIEF")
     {
         Console.WriteLine("A Thief! A cunning individual adept at stealth and lockpicking.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Thief Class' Weapon
+        Console.WriteLine("What weapon do you wield?");
+        Console.WriteLine("[DAGGER] [CLAW]");
+
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "DAGGER")
+        {
+            Console.WriteLine("A Dagger! A small blade perfect for quick, silent strikes.");
+        }
+        else if (weaponChoice.ToUpper() == "CLAW")
+        {
+            Console.WriteLine("A Claw! A sharp, curved weapon ideal for slashing attacks.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            weaponChoice = Console.ReadLine();
+        }
     }
     else if (subClassChoice.ToUpper() == "ASSASSIN")
     {
         Console.WriteLine("An Assassin! A deadly operative skilled in silent takedowns.");
+
+        // Seperator Space
+        Console.WriteLine("");
+
+        // Choosing your Assassin Class' Weapon
+        Console.WriteLine("What weapon do you wield?");
+        Console.WriteLine("[BOW] [SHURIKEN]");
+
+        string weaponChoice = Console.ReadLine();
+        if (weaponChoice.ToUpper() == "BOW")
+        {
+            Console.WriteLine("A Bow! A ranged weapon for striking from the shadows.");
+        }
+        else if (weaponChoice.ToUpper() == "SHURIKEN")
+        {
+            Console.WriteLine("A Shuriken! A throwing star for silent, precise attacks.");
+        }
+        else
+        {
+            Console.WriteLine("Hm, still can't remember? Give it a bit more time to come back to you.");
+            weaponChoice = Console.ReadLine();
+        }
     }
     else
     {
