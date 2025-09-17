@@ -34,12 +34,30 @@ else
 {
     Console.WriteLine("");
 }
+
 // Checking for valid Race input
 if (validRace == true)
 {
+    // Get Player Height
+    Console.WriteLine("");
+    Console.WriteLine("By the way, I am quite curious. How tall are you? (Metres)");
+    float playerHeight = float.Parse(Console.ReadLine());
+
+    if (playerHeight >= 1.83)
+    {
+        Console.WriteLine($"Ah, {playerHeight} metres eh? You are quite tall!");
+    }
+    else if (playerHeight <= 1.52)
+    {
+        Console.WriteLine($"Ah, {playerHeight} metres eh? No shame in being short, I hear they live longer you know.");
+    }
+    else
+    {
+        Console.WriteLine($"Ah, {playerHeight} metres eh? Quite an average height for a {raceChoice}.");
+    }
     // Choosing your Class
     Console.WriteLine("");
-    Console.WriteLine("And what of your Class?");
+    Console.WriteLine("Back to it! What is your Class?");
     Console.WriteLine("[COMBAT] [MAGIC] [STEALTH]");
 
     string classChoice = Console.ReadLine();
